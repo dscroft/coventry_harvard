@@ -11,4 +11,4 @@ Copy HarvardCoventry.XSL to your C:/Users/YOURUSERNAME/AppData/Roaming/Microsoft
 ### Mac
 Open Word folder in Finder. Applications -> Microsoft Office -> Microsoft Word
 Right click on Word and select "Show Package Content".
-Copy over HarvardCoventry.XSL
+Copy HarvardCoventry.XSL to the Contents/Resources/Style directory.
