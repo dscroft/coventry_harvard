@@ -1,27 +1,9 @@
 \documentclass[draft]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
+\usepackage[UKenglish]{babel}
 
 % === citation configuration to meet CUHarvard ===
-\usepackage[backend=biber,
-			style=authoryear,
-			isbn=false]{biblatex}
-
-\DefineBibliographyStrings{english}{%
-	urlseen = {Visited},
-}
-
-\renewcommand*{\multicitedelim}{\addcomma\space}
-\renewcommand*{\postnotedelim}{\addcolon\space}
-\DeclareFieldFormat{postnote}{#1}
-\DeclareFieldFormat{multipostnote}{#1}
-\DeclareFieldFormat{urldate}{\mkbibbrackets{\bibstring{urlseen}\space#1}}
-\DeclareFieldFormat{url}{$<$\url{#1}$>$}
-
-\usepackage{xpatch}
-\xpretobibmacro{date+extrayear}{\addperiod\space}{}{}
-\xapptobibmacro{date+extrayear}{\nopunct}{}{}
-% === end of citation configuration ===
+\input{HarvardCoventry}
 
 
 % === creates the bib file ===
