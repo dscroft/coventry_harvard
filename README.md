@@ -13,5 +13,5 @@ Open Word folder in Finder. Applications -> Microsoft Office -> Microsoft Word
 Right click on Word and select "Show Package Content".
 Copy HarvardCoventry.XSL to the Contents/Resources/Style directory.
 
-# LaTex Installation Instructions
+# LaTeX Installation Instructions
 Just put the HarvardCoventry.tex file in the same directory as your main LaTeX document and import it by calling \input() in your document preamble (see latexdemo.tex).
